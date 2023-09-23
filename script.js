@@ -8,6 +8,7 @@
 
         function pauseVideo() {
           video.pause();
+			video.currentTime = 0;
         }
 
         function backward() {
