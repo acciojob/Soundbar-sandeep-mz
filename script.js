@@ -1,20 +1,18 @@
 //your JS code here. If required.
-  const video = document.getElementsByTagName("video")[0];
+const audio = document.querySelector("audio");
 
-        function playVideo() {
-          // plays the video
-          video.play();
-        }
+      function playAudio() {
+        audio.play();
+      }
 
-        function pauseVideo() {
-          video.pause();
-			video.currentTime = 0;
-        }
+      function pauseAudio() {
+        audio.pause();
+      }
 
-        function backward() {
-          video.currentTime -= 5;
-        }
+      function backward() {
+        audio.currentTime -= 10; // Go back 10 seconds (adjust as needed)
+      }
 
-        function forward() {
-          video.currentTime += 5;
-        }
+      function forward() {
+        audio.currentTime += 10; // Go forward 10 seconds (adjust as needed)
+      }

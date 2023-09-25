@@ -1,38 +1,9 @@
-/*  your css code here. If applicable */
-/* Reset default styles for the video and buttons */
-video, button {
-  margin: 10px;
-  padding: 8px 12px;
-  border: 1px solid green;
-  cursor: pointer;
-  background-color: black;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 16px;
+/* Style the audio controls */
+.btn{
+	display: flex;
+	gap:10px;
 }
-
-/* Style the video container */
-video {
+audio {
   width: 100%;
-  max-width: 800px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Style the buttons */
-button:hover {
-  background-color: white;
-	color:black;
-}
-
-/* Center the buttons */
-button {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* Add some spacing */
-body {
-  text-align: center;
-  padding: 20px;
+  max-width: 400px; /* Adjust the maximum width as needed */
 }
